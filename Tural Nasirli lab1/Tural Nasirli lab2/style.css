@@ -1,0 +1,45 @@
+.links a i{
+    font-size: 1.8rem;
+    color: white;
+    margin: 0.7rem;
+}
+
+.navbar-brand{
+margin-right: 24rem;
+}
+ul li a{
+    margin: 0.7rem;  
+}
+
+.sidebar-1 img {
+    width:100%;
+}
+
+.sidebar-2 p{
+    color: white ;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.sidebar-1, .sidebar-2{
+    border: 3px solid black;
+}
+
+.left-side h2{
+    color: white;
+}
+
+
+hr:not([size]) {
+    height: 1px;
+}
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+.right-side h1{
+    margin: 1rem;
+}
