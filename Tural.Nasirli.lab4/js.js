@@ -27,3 +27,11 @@ document.querySelector(".Celsi").addEventListener('click', function(){
      M = Km/1609;
      document.querySelector(".resultm h1").innerText= "Miles: "+M;
   })
+
+ function test(counter) {
+    console.log("test");
+    if (counter > 0)
+    test(--counter);
+ }
+
+ test(3);
